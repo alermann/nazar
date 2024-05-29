@@ -1,0 +1,728 @@
+body {
+    font-family: sans-serif;
+    background-color: greenyellow;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.bab{
+   /* Minecraft */
+
+position: absolute;
+width: 230px;
+height: 75px;
+left: 37%;
+top: 150px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400; 
+font-size: 64px;
+line-height: 75px;
+/* identical to box height */
+transition: 1s;
+color: #000000;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ 
+}
+.bab:hover{
+    transition: 1s;
+    font-size: 66px;
+    left: 35%;
+}
+img:hover{
+    opacity: 0.8;
+    transition: 1s;
+    cursor: pointer;
+    
+}
+.baba{
+    /* minecraft-1-21 1 */
+
+position: absolute;
+width: 333px;
+height: 201px;
+right: 0px;
+/* left: 522px; */
+top: 0px;
+
+background: url(minecraft-1-21.jpg);
+border-radius: 30px;
+
+}
+
+.babi{
+    /* images 1 */
+
+position: absolute;
+width: 333px;
+height: 201px;
+left: 1px;
+top: 0px;
+
+background: url(images.jpg);
+border-radius: 30px;
+
+}
+
+
+.bibi{
+
+position: absolute;
+width: 311px;
+height: 205px;
+left: 1px;
+top: 269px;
+
+background: url(Minicow.png);
+border-radius: 30px;}
+
+.be {
+    
+
+position: absolute;
+width: 333px;
+height: 201px;
+right: 0px;
+/* left: 522px; */
+top: 280px;
+
+background: url("images (1).jpg");
+border-radius: 30px;
+
+}
+
+
+nav {
+   
+
+position: absolute;
+width: 100%;
+height: 50px;
+left: 0px;
+top: 497px;
+
+background: #16FF4A;
+
+}
+
+
+  /* вибір ригіонів */
+/* .posxalko {
+  
+
+position: absolute;
+width: 313px;
+height: 56px;
+left: 360px;
+top: 773px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+
+color: #000000;
+
+
+} */
+.name1{
+    position: absolute;
+    top: 773px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 38px;
+line-height: 56px;
+background-color: #16FF4A;
+/* display: flex; */
+}
+.name2{
+     position: absolute;
+    top: 1503px;
+    margin-left: 10%;
+    /* width: 100%; */
+    text-align: center;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 38px;
+line-height: 56px;
+}
+.name3{
+     position: absolute;
+    top: 2053px;
+    /* width: 100%; */
+    
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 38px;
+padding: 10px 40px;
+line-height: 56px;
+background-color: #16FF4A;
+}
+.name11, .name31, .block41{
+    display: flex;
+}
+.block41{
+    margin-left: 20%;
+}
+.block4{
+     position: absolute;
+    top: 553px;
+    text-align: center;
+    /* width: 100%; */
+}
+.cl {
+    position: absolute;
+    left:  -80px;
+   
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    height: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 0;
+}
+
+.cl:hover {
+    left: 0;
+
+}
+
+.about{
+    top: 290px;
+    background-color: #4CAF50;
+}
+.menu{
+    width: 100%;
+    position: absolute;
+    display: flex;
+justify-content: space-around;
+margin-top: 20px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 23px;
+transition: 1s;
+color: #000000;
+}
+.menu a:hover{
+    /* color: white; */
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 31px;
+    cursor: pointer;
+    transition: 1s;
+}
+.mednu{
+    position: absolute;
+    top: 630px;
+    margin-left: 40%;
+    transition: 1s;
+}
+.mednu:hover{
+    font-size: 35px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 36%;
+    transition: 1s;
+}
+.projects{
+    top: 170px;
+    background-color: #f44336;
+    }
+
+.contact{
+    top: 230px;
+    background-color: yellow;
+}
+
+.blog {
+    top: 110px;
+    background-color: #2196F3;
+}
+
+
+.img {
+    /* 3F3F3F3F3F3F3F3F3F3F_1.11 1 */
+
+/* position: absolute; */
+width: 250px;
+height: 241px;
+left: 40px;
+top: 940px;
+
+/* background: url(3F3F3F3F3F3F3F3F3F3F_1.11.png); */
+border-radius: 40px;
+
+}
+
+.iimg {
+    /* Survival1 1 */
+
+/* position: absolute; */
+width: 250px;
+height: 241px;
+left: 350px;
+top: 940px;
+
+background: url(Survival1);
+border-radius: 40px;
+transform: rotate(0.5deg);
+
+}
+
+.iiimg {
+    /* G4q76aHNvR2Ok6-400-300 1 */
+
+/* position: absolute; */
+width: 250px;
+height: 241px;
+left: 700px;
+top: 940px;
+
+background: url(G4q76aHNvR2Ok6-400-300.png);
+border-radius: 40px;
+
+}
+
+
+.po {
+    /* Криатив */
+
+/* position: absolute;
+width: 126px;
+height: 38px;
+left: 99px;
+top: 1150px; */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+
+
+
+.p {
+    /* коли заходиш в криатив ти можиш вибрати собі любі блоки та ресурси.також ти можеш літати і ти безсмертний */
+
+/* position: absolute;
+width: 286px;
+height: 115px;
+left: 50px;
+top: 1200px; */
+height: 138px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+
+}
+
+
+
+.pp {
+    /* Вживання */
+
+/* position: absolute;
+width: 154px;
+height: 38px;
+left: 460px;
+top: 1150px; */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+.pp2 {
+    /* Вживання */
+
+/* position: absolute;
+width: 154px;
+height: 38px;
+left: 770px;
+top: 1150px; */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+
+
+
+
+
+.ppp {
+    /* Коли заходишв виживання не все так просто як в криативі тобі потрібно виживати строїти дім кравтити броню і мечі главна роль гри вбити дракона */
+
+/* position: absolute;
+width: 286px;
+
+left: 400px;
+top: 1200px; */
+height: 138px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+
+}
+
+.ppp2 {
+    /* Коли заходишв виживання не все так просто як в криативі тобі потрібно виживати строїти дім кравтити броню і мечі главна роль гри вбити дракона */
+
+/* position: absolute;
+width: 286px;
+height: 138px;
+left: 750px;
+top: 1200px; */
+height: 138px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+
+}
+.try{
+    /* top: 1350px;
+    position: absolute; */
+    background-color: #a7ffa9;
+    padding: 0px 30px;
+    font-size: 25px;
+    transition: 1s;
+    cursor: pointer;
+    /* width: 100px; */
+    /* left: 70px; */
+}
+.try:hover{
+    color: #a7ffa9;
+    background-color: #000000;
+    transition: 1s;
+}
+
+.block{
+    width: 30%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.kaki {
+    /* моби */
+
+/* position: absolute;
+width: 117px;
+height: 56px;
+left: 450px;
+top: 1450px; */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+
+color: #000000;
+
+
+}
+
+
+
+.koko {
+    /* Ellipse 3 */
+
+/* position: absolute;
+
+left: 50px;
+top: 1600px; */
+width: 190px;
+height: 190px;
+background: #50FB00;
+
+
+border-radius: 50%;
+margin: 0px 20px;
+
+}
+
+
+
+.rust {
+    /* Ellipse 5 */
+
+position: absolute;
+width: 190px;
+height: 190px;
+left: 300px;
+top: 1600px;
+border-radius: 50%;
+
+background: #50FB00;
+
+}
+
+
+
+
+.tuna {
+    /* Ellipse 4 */
+
+position: absolute;
+width: 190px;
+height: 190px;
+left: 550px;
+top: 1600px;
+border-radius: 50%;
+
+background: #16FF4A;
+
+}
+
+
+.host {
+    /* Ellipse 6 */
+
+position: absolute;
+width: 190px;
+height: 190px;
+left: 750px;
+top: 1600px;
+border-radius: 50%;
+
+background: #16FF4A;
+
+}
+
+
+.wow {
+    /* Про гру */
+
+/* position: absolute;
+width: 171px;
+height: 56px;
+left: 79px;
+top: 2000px; */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+
+color: #000000;
+}
+
+.add {
+    /*  відеогра в жанрі пісочниці у відкритому світі з поглядом від першої/третьої особи, розроблена та видана Mojang Studios у 2011 році. Гра започаткувала однойменну серію, для всіх творів якої характерний мінімалістичний кубічний дизайн. Гра розроблена у 2009 році шведським програмістом Маркусом Перссоном, відомим також як «Notch», і надалі розробляється заснованою Маркусом Перссоном компанією Mojang, котра належить Microsoft Studios. Minecraft належить до ігор з найширшою аудиторією і визнана найпродаванішою відеогрою в історії */
+
+/* position: absolute;
+width: 574px;
+height: 253px;
+left: 65px;
+top: 2100px; */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+}
+
+
+.dad {
+    /* Key-Art-2-big 1 */
+
+/* position: absolute;
+
+left: 700px;
+top: 2100px; */
+width: 400px;
+height: 255px;
+margin-left: 10px;
+background: url(Key-Art-2-big.png);
+border-radius: 48px;
+
+}
+
+
+.root {
+    /* Наші сервера */
+
+/* position: absolute;
+width: 307px;
+height: 56px;
+left: 468px;
+top: 2500px; */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+
+color: #000000;
+}
+
+.ded {
+    /* Айпі Адреса */
+
+/* position: absolute;
+width: 217px;
+height: 42px;
+left: 500px;
+top: 2625px; */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+
+color: #000000;
+}
+
+.irina {
+    /* Play.funtime.mc */
+
+/* position: absolute;
+width: 259px;
+height: 42px;
+left: 468px;
+top: 2700px; */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+color: #000000;
+}
+
+
+.qq {
+    /* 14118887-banner_l 1 */
+
+/* position: absolute;
+
+left: 762px;
+top: 2700px; */
+/* border-radius: 50%; */
+
+/* background: url(14118887-banner_l.jpg); */
+border-radius: 38px;
+width: 313px;
+height: 166px;
+margin-left: 30px;
+margin-top: 20px;
+
+}
+
+
+.qqq {
+    /* play.skywars.uk */
+
+position: absolute;
+width: 252px;
+height: 42px;
+left: 470px;
+top: 2830px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+color: #000000;
+}
+
+
+.loo {
+    /* Skywars_Thumbnail_0 1 */
+
+position: absolute;
+width: 314px;
+height: 195px;
+left: 144px;
+top: 2800px;
+
+background: url(Skywars_Thumbnail_0.jpg);
+border-radius: 41px;
+
+}
+
+.dddd {
+    /* play.skyblock.mc */
+
+position: absolute;
+width: 274px;
+height: 42px;
+left: 460px;
+top: 3000px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+color: #000000;
+}
+
+.pukiii {
+    /* SB_Thumbnail_0 1 */
+
+position: absolute;
+width: 301px;
+height: 190px;
+left: 762px;
+top: 3000px;
+
+background: url(SB_Thumbnail_0.jpg);
+border-radius: 46px;
+
+}
